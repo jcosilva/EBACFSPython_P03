@@ -1,0 +1,74 @@
+* {
+    font-family: "Roboto", serif;
+}
+
+.navbar {
+    background-color: #000000;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-cardapio .nav-link.active:hover {
+    color: #ffffff;
+}
+
+.navbar-brand {
+    font-size: 48px;
+}
+
+.navbar-toggler {
+    background-color: #ffffff;
+}
+
+#servicos {
+    background-color: #8a8787;
+}
+
+.text-colored {
+    color: #000000;
+}
+
+#fale-conosco {
+    background-color: #8a8787;
+}
+
+.nav-cardapio .nav-link.active,
+#fale-conosco button {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.nav-cardapio .nav-link:hover {
+    color: #000000;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links li a {
+    text-decoration: none;
+}
+
+.section-title, h3 {
+    font-weight: bold;
+}
+
+footer {
+    background-color: #000000;
+    color: #ffffff;
+    align-items: center;
+}
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 280px;
+    }
+}
